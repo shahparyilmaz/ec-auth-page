@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .signup-container {
   width: 100vw;
   min-height: 100vh;
@@ -16,7 +19,7 @@
 }
 .signup-form {
   background-color: rgb(255, 255, 255);
-  padding: 10%;
+  padding: 5% 10%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 10% 90%;

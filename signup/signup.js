@@ -77,13 +77,13 @@ export default function SignUp(){
                     {/* <Button height="35%" maxHeight="40px" borderRadius="0.5rem" borderWidth="1px" borderStyle="solid" borderColor="rgb(8, 123, 255)" color="rgb(8, 123, 255)" backgroundColor="white">
                         Log In
                     </Button> */}
-                    <Button height="70%" minHeight="30px" borderRadius="0.5rem" borderWidth="1px" borderStyle="solid" borderColor="rgb(8, 123, 255)" color="rgb(8, 123, 255)" backgroundColor="white"
+                    <Button height="70%" minHeight="40px" borderRadius="0.5rem" borderWidth="1px" borderStyle="solid" borderColor="rgb(8, 123, 255)" color="rgb(8, 123, 255)" backgroundColor="white"
                      _hover={{backgroundColor:"rgb(8, 123, 255)",color:"white"}} onClick={()=>navigate('/login')}>
                         Log In
                     </Button>
                 </div>
                 <div className="signup-form-body">
-                    <Stack spacing={5}>
+                    <Stack spacing={3}>
                     <div className="signup-form-title">
                         <Text fontSize="3xl" fontWeight="700" color="black">Welcome to Engineer's Cradle</Text>
                     </div>
