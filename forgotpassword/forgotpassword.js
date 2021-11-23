@@ -40,7 +40,7 @@ export default function ForgotPassword({ navigation }){
                         <form action="">
                             <Stack spacing={3}>
                                 <FormControl id="email" border="0px">
-                                    <FormLabel fontWeight="600" fontSize="70%">Email or Username</FormLabel>
+                                    <FormLabel fontWeight="600" fontSize="70%">Email</FormLabel>
                                     <Input type="text" border="0" backgroundColor="rgb(225, 236, 247)" borderRadius="0.5rem" name="email" value={userEmail} onChange={(e)=>setUserEmail(e.target.value)} placeholder="john.doe@example.com" fontSize="80%" />
                                 </FormControl>
                                 <Stack spacing={6}>
